@@ -5,14 +5,11 @@ console.log('Tried getting name');
     var contract = web3.eth.contract(ABI);
     var contractInstance=contract.at(contractAddress);
     contractInstance.getUsername(function(error, result){
-     if(!error)
+     if(!error){
          console.log(result)
+         gameInstance.sendMessage('UIController', 'SetName', result);
+     }
      else
          console.error(error);
  });
 }	
-
-  function setName( )
-      {
-        gameInstance.sendMessage('UIController', 'SetName', 'floAr');
-      }
