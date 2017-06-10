@@ -1,6 +1,6 @@
 function onContentLoaded() {
   var accountSpan = document.getElementById("account");
-  
+setName();  
   accountSpan.innerHTML =
 
     (typeof web3 === "undefined" ? "undefined" : web3.eth.accounts[0]);
