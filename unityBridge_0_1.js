@@ -21,8 +21,8 @@ function setName(string name){
     var contractInstance=contract.at(contractAddress);
     contractInstance.Register(name,function(error, result){
      if(!error){
-         console.log(result)
-         gameInstance.SendMessage('UIController', 'SetName', result);
+         console.log(result);
+         getName();
      }
      else
          console.error(error);
