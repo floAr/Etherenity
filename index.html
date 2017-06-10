@@ -7,9 +7,14 @@
     <title>My DApp</title>
 	<script src="unityBridge_0_1.js"></script>
     <script src="app.js"></script>
+	
+	 <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/dapp.json");
+    </script>
+	
 </head>
 <body>
-<h1>Hello world!</h1>
+ <div id="gameContainer" style="width: 600px; height: 930px; margin: auto"></div>
 Web3 account: <span id="account"></span>
 </body>
 </html>
