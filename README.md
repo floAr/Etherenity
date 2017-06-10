@@ -1,12 +1,12 @@
 # DApp and bot for Status.im
 
-Submission: https://github.com/status-im/hackathon/issues/154
+Submission: https://github.com/status-im/hackathon/issues/18
 
 ```
-{"whisper-identity": "154-test-dapp-and-bot",
- "name":             "#154 Test DApp and bot",
- "dapp-url":         "https://flexsurfer.github.io/status/",
- "bot-url":          "https://flexsurfer.github.io/status/bot/bot.js"}
+{"whisper-identity": "18-ThreeEyedGames_Etherenity",
+ "name":             "#18 ThreeEyedGames Etherenity",
+ "dapp-url":         "https://floar.github.io/Etherenity/",
+ }
 ```
 
 
