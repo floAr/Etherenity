@@ -8,6 +8,7 @@ console.log('Tried getting name');
     contractInstance.getUsername(function(error, result){
      if(!error){
          console.log(result)
+          console.log(error)
          gameInstance.SendMessage('UIController', 'SetName', result);
      }
      else
